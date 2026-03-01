@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'><defs><linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' style='stop-color:%23b78628;stop-opacity:1' /><stop offset='100%' style='stop-color:%23f5ebd6;stop-opacity:1' /></linearGradient></defs><rect width='512' height='512' rx='100' fill='url(%23grad)'/><text x='50%' y='50%' font-family='Arial, sans-serif' font-weight='bold' font-size='250' fill='white' text-anchor='middle' dy='.35em'>U2</text></svg>">
+    <title>Unit Converter – Free Online Conversion Tool for Length, Weight, Temperature & More</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="The world's most trusted, premium, and free online unit conversion suite. We helped more than a Million users daily. 100% private, no signup required, and 100% trustworthy. Convert inches to cm, kg to lbs, fahrenheit to celsius, feet to meters, miles to km, gallons to liters, oz to ml, mph to kmh.">
+    <meta name="keywords" content="unit converter, online unit converter, free unit converter, unit conversion calculator, metric converter, inches to cm, cm to inches, kg to lbs, lbs to kg, fahrenheit to celsius, celsius to fahrenheit, feet to meters, meters to feet, miles to km, km to miles, gallons to liters, liters to gallons, oz to ml, ml to oz, mph to kmh, how to convert inches to cm, free online kg to lbs converter, what is 180 cm in feet, celsius to fahrenheit baking, unit converter for cooking, convert 5 feet 10 inches to cm, metric to imperial converter free, we helped more than a Million user daily, no signup required, 100% private, 100% trustworthy, length, weight, volume, area, temperature, speed, energy, pressure, frequency, fuel economy, cooking measurements, scientific conversions, currency rates, data storage, time zones, angles, power, flow rate, torque, luminance, sound intensity, Einheitenrechner, Convertisseur d'unités, Convertitore di unità, Conversor de unidades, Eenheden omrekenen, 単位変換, 单位换算, محول الوحدات, Penukar Unit, ตัวแปลงหน่วย, Konverter Satuan, Przelicznik jednostek, Převodník jednotek, Mértékegység átváltó, Prevodník jednotiek, Convertor de unități, Конвертор на единици, Pretvarač jedinica, Pretvornik enot, Ühikute teisendaja, Mērvienību pārveidotājs, Vienetų konverteris, Конвертер величин, Birim Çevirici">
+    <meta name="author" content="Unit Converter Tools">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#B78628">
+    <meta name="monetag" content="46dbd86caeaa4af48a4996daad8bca9a">
+    <meta name="google-site-verification" content="1IuIlvUFwmQd47KocIAZ7AyFpbi4DYJiOW1e4bf_Hq4" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bestunitconverter.netlify.app">
+    <meta property="og:title" content="Unit Converter – Free Online Conversion Tool for Length, Weight, Temperature & More">
+    <meta property="og:description" content="Convert anything instantly. Length, Mass, Volume, Area, Magnetism, and 30+ more. We helped more than a Million users daily. No signup required, 100% private, and 100% trustworthy. Convert inches to cm, kg to lbs, fahrenheit to celsius.">
+    <meta property="og:image" content="https://picsum.photos/seed/gold/1200/630">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://bestunitconverter.netlify.app">
+    <meta property="twitter:title" content="Unit Converter – Free Online Conversion Tool for Length, Weight, Temperature & More">
+    <meta property="twitter:description" content="Convert anything instantly. Length, Mass, Volume, Area, Magnetism, and 30+ more. We helped more than a Million users daily. No signup required, 100% private, and 100% trustworthy. Convert inches to cm, kg to lbs, fahrenheit to celsius.">
+    <meta property="twitter:image" content="https://picsum.photos/seed/gold/1200/630">
+
+    <link rel="canonical" href="https://bestunitconverter.netlify.app/">
+
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Unit Converter",
+      "operatingSystem": "Web",
+      "applicationCategory": "UtilitiesApplication",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "ratingCount": "15420"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              royal: {
+                50: '#fbf7ef',
+                100: '#f5ebd6',
+                200: '#ebd5ac',
+                300: '#dfba7e',
+                400: '#d29d53',
+                500: '#b78628',
+                600: '#a67222',
+                700: '#85561f',
+                800: '#6d4520',
+                900: '#5a3a1f',
+              }
+            }
+          }
+        }
+      }
+    </script>
+
+    <!-- Babel for JSX -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Import Map -->
+    <script type="importmap">
+    {
+      "imports": {
+        "react": "https://esm.sh/react@18.2.0",
+        "react-dom": "https://esm.sh/react-dom@18.2.0",
+        "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+        "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?deps=react@18.2.0,react-dom@18.2.0",
+        "recharts": "https://esm.sh/recharts@2.12.3?deps=react@18.2.0,react-dom@18.2.0"
+      }
+    }
+    </script>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📏</text></svg>">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><rect width=%22100%22 height=%22100%22 fill=%22%23b78628%22/><text x=%2250%25%22 y=%2250%25%22 font-size=%2270%22 text-anchor=%22middle%22 dy=%22.35em%22>📏</text></svg>">
+    
+    <!-- Preload Critical Resources -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    <link rel="preload" href="https://unpkg.com/@babel/standalone/babel.min.js" as="script">
+    <link rel="modulepreload" href="https://esm.sh/react@18.2.0">
+    <link rel="modulepreload" href="https://esm.sh/react-dom@18.2.0">
+</head>
+<body class="bg-royal-50 text-slate-800 antialiased selection:bg-royal-200 selection:text-royal-900">
+    <div id="root">
+        <!-- Loading State -->
+        <div style="position:fixed;top:0;left:0;width:100%;height:100%;display:flex;justify-content:center;align-items:center;background:#fbf7ef;z-index:9999;">
+            <div style="text-align:center;">
+                <div style="font-size:4rem;margin-bottom:1rem;animation:bounce 1s infinite;">📏</div>
+                <div style="font-family:sans-serif;color:#b78628;font-weight:bold;font-size:1.5rem;">Loading Unit Converter...</div>
+            </div>
+            <style>@keyframes bounce{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}</style>
+        </div>
+    </div>
+    
+    <!-- Ad Script (Deferred) -->
+    <script src="https://quge5.com/88/tag.min.js" data-zone="214181" async data-cfasync="false"></script>
+    
+    <script type="text/babel" data-type="module" src="main.js"></script>
+</body>
+</html>
